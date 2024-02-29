@@ -1,0 +1,75 @@
+repo_name: 2lambda123/irmin
+report_id: 98cbf1a20b7c82995ae301478045171f
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-29T19:19:57+00:00'
+requested_by: art-w
+provider: github
+branch: main
+detected_tools_count: 6
+tools:
+- name: C lang
+  description: One of the most widely used programming languages of all time
+  website_url: http://en.wikipedia.org/wiki/C_(programming_language)
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/2lambda123/irmin
+  detection_source: Repo Metadata
+- name: OCaml
+  description: A general purpose industrial-strength programming language
+  website_url: http://ocaml.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/2854/ocaml.jpg
+  detection_source_url: https://github.com/2lambda123/irmin
+  detection_source: Repo Metadata
+- name: Perl
+  description: Highly capable, feature-rich programming language with over 26 years
+    of development
+  website_url: http://www.perl.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1048/perl.png
+  detection_source_url: https://github.com/2lambda123/irmin
+  detection_source: Repo Metadata
+- name: Codecov
+  description: Hosted coverage reports with awesome features to enhance your CI workflow
+  website_url: https://codecov.io/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Code Coverage
+  image_url: https://img.stackshare.io/service/2673/Codecov_Mark_Circle_Pink.png
+  detection_source_url: https://github.com/2lambda123/irmin/blob/main/codecov.yml
+  detection_source: codecov.yml
+  last_updated_by: Craig Ferguson
+  last_updated_on: 2022-01-06 14:31:11.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/2lambda123/irmin
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/2lambda123/irmin/blob/main/.github/workflows/changelog-check.yml
+  detection_source: ".github/workflows/changelog-check.yml"
+  last_updated_by: Clément Pascutto
+  last_updated_on: 2020-07-23 16:45:13.000000000 Z
